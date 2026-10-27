@@ -52,7 +52,7 @@ import Nav from '@/components/nav.vue'
           <h3>Navigation</h3>
           <ul>
             <li><RouterLink to="/">Home</RouterLink></li>
-            <li><RouterLink to="/projects">Projects</RouterLink></li>
+<!--            <li><RouterLink to="/projects">Projects</RouterLink></li>-->
             <li><RouterLink to="/about">About</RouterLink></li>
           </ul>
         </div>

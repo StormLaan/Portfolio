@@ -44,9 +44,12 @@
           <div>
             Olybase is een pakket gebouwd op rust met axum met meerdere optionele pakketten om een
             api of front end net wat sneller te kunnen maken. Daarin zitten optionele pakketten:
-            <br />- Axum met standaard responses, cors, tls, tracing en websocket support <br />-
-            Jwt en refresh token generatie en validatie <br />- Password hasher <br />- Storage via
-            s3
+            <ul>
+              <li>Axum met standaard responses, cors, tls, tracing en websocket support</li>
+              <li>Jwt en refresh token generatie en validatie</li>
+              <li>Password hasher</li>
+              <li>Storage via s3</li>
+            </ul>
           </div>
           <a target="_blank" href="https://github.com/olytech-official/olybase">MORE ></a>
         </div>
@@ -56,8 +59,9 @@
           <div class="project-content"></div>
           <h1>Home server</h1>
           <div>
-            Ik setup mijn eigen server ik heb nu al met ubuntu server, proxmox en hexos gewerkt. Nu
-            host ik deze portfolio en nog andere websites die ik maak hierop.
+            Ik heb ervaring met het opzetten en beheren van mijn eigen home server met behulp van
+            Ubuntu Server, Proxmox en HexOS. Momenteel host ik deze portfolio en verschillende
+            andere zelfgemaakte websites rechtstreeks op mijn eigen server.
           </div>
           <!--          <button>MORE ></button>-->
         </div>
@@ -67,8 +71,10 @@
 
   <section class="skills-section">
     <div class="container">
-      <h1>Skills & Tools</h1>
-      <p class="subtitle">A breakdown of technologies and tools I work with across domains.</p>
+      <h1>Vaardigheden & Tools</h1>
+      <p class="subtitle">
+        Een overzicht van technologieën en middelen waar ik mee werk binnen verschillende domeinen.
+      </p>
       <div class="skills-grid">
         <div class="skill">
           <div class="skill-header">
@@ -76,7 +82,7 @@
           </div>
           <ul class="skill-list">
             <li>Vue.js</li>
-            <li>Typescript</li>
+            <li>TypeScript</li>
             <li>PHP</li>
             <li>Rust</li>
             <li>Git</li>
@@ -85,11 +91,11 @@
 
         <div class="skill">
           <div class="skill-header">
-            <h2>Hardware & Electronics</h2>
+            <h2>Hardware & Elektronica</h2>
           </div>
           <ul class="skill-list">
-            <li>Easyeda</li>
-            <li>PCB Layout & Design</li>
+            <li>EasyEDA</li>
+            <li>PCB Layout & Ontwerp</li>
             <li>Microcontrollers (RP2040)</li>
           </ul>
         </div>
@@ -100,8 +106,8 @@
           </div>
           <ul class="skill-list">
             <li>Fusion 360</li>
-            <li>Solidworks</li>
-            <li>3D Printing</li>
+            <li>SolidWorks</li>
+            <li>3D-printen</li>
           </ul>
         </div>
       </div>
@@ -137,11 +143,10 @@ section {
     }
 
     img {
-      background: #9e9e9e;
-      height: 350px;
-      max-width: 300px;
-      width: 100%;
-      border-radius: 10px;
+      width: 300px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 
       @media (min-width: 768px) {
         max-width: 250px;
@@ -177,6 +182,16 @@ section {
   h1,
   p {
     margin: 0;
+  }
+
+  ul {
+    list-style: inside;
+    padding-left: 10px;
+
+    li {
+      margin-bottom: 5px;
+      margin-top: 5px;
+    }
   }
 
   a,

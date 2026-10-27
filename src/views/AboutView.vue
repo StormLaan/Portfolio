@@ -192,7 +192,7 @@
   }
 
   .profile-image img {
-    width: 300px;
+    width: 600px;
     object-fit: cover;
     border-radius: 12px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
