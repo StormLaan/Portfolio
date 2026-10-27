@@ -1,0 +1,5 @@
+@use '../abstracts/mixins' as *;
+
+button, input, select, textarea {
+  @include button;
+}

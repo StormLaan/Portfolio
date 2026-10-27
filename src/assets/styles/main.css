@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=DM+Mono:wght@400;500&display=swap");
+.dark {
+  --bg: #242424;
+  --bg-text: #fff;
+  --box: #141414;
+  --box-text: #fff;
+  --highlight: #000000;
+  --highlight-text: #fff;
+  --sidebar: #141414;
+  --sidebar-text: #fff;
+  --topbar: #141414;
+  --topbar-text: #fff;
+  --button: #676767;
+  --button-text: #fff;
+  --button-border: #008dd8;
+  --button-border-text: #fff;
+  --button-hover: #008dd8;
+  --button-hover-text: #fff;
+  --border: #ff0000;
+  --border-text: #fff;
+  --link: #008dd8;
+  --link-text: #fff;
+  --nav: #242424;
+  --nav-text: #fff;
+  --nav-hover: rgba(0, 141, 216, 0.2);
+  --nav-hover-text: #fff;
+  --primary-color: #008dd8;
+  --primary-color-text: #fff;
+  --secondary-color: #008dd8;
+  --secondary-color-text: #fff;
+  --input-bg: #2e2e2e;
+  --input-bg-text: #fff;
+  --input-border: #575757;
+  --input-border-text: #fff;
+  --input-focus-border: #676767;
+  --input-focus-border-text: #fff;
+  --hover: #2f2f2f;
+  --hover-text: #fff;
+  --active: #333333;
+  --active-text: #fff;
+  --text: #e0e0e0;
+  --text-text: #000;
+  --text-muted: #888888;
+  --text-muted-text: #000;
+  --text-dim: #555555;
+  --text-dim-text: #fff;
+  --online: #1ae602;
+  --online-text: #000;
+  --away: #f0b429;
+  --away-text: #000;
+  --dnd: #e74c3c;
+  --dnd-text: #fff;
+  --badge: #602a28;
+  --badge-text: #fff;
+  --badge-text: #ee8884;
+  --badge-text-text: #000;
+}
+
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+*:not(dialog) {
+  margin: 0;
+}
+
+/* 3. Enable keyword animations */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+body {
+  /* 4. Add accessible line-height */
+  line-height: 1.5;
+  /* 5. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 6. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 7. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 8. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* 9. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/*
+  10. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+ul {
+  list-style: none;
+}
+
+:root {
+  --font-sans: 'DM Sans', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+  --radius: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --transition: 0.15s ease;
+}
+
+.root {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans), sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  transition: background var(--transition), color var(--transition);
+  width: 100%;
+  min-height: 100vh;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.15s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.slide-up-enter-active,
+.slide-up-leave-active {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.slide-up-enter-from,
+.slide-up-leave-to {
+  opacity: 0;
+  transform: translateY(8px);
+}
+
+.mx-context-menu.dark {
+  height: auto;
+}
+
+/*# sourceMappingURL=main.css.map */
