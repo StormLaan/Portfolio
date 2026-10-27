@@ -24,6 +24,7 @@
               <a href="mailto:vlekkie.storm@gmail.com" class="chip">✉️ stormlaan@icloud.com</a>
               <a href="tel:0651479557" class="chip">📞 06 51479557</a>
               <span class="chip">📍 Nieuwe Niedorp</span>
+              <span class="chip">🚗 Rijbewijs B</span>
             </div>
           </div>
         </div>
@@ -51,7 +52,9 @@
               <span class="date">Opdracht</span>
               <h3>AI Developer — Digital Card Solutions (DCS)</h3>
               <p class="description">
-                Ontwikkeling van een AI-model voor de automatische classificatie van dieren.
+                Onderzoek naar de ontwikkeling van een AI-model voor het automatisch classificeren
+                van dieren. Het project bleek door technische complexiteit niet haalbaar, maar
+                diende als een waardevol leertraject op het gebied van AI en data.
               </p>
             </div>
 
@@ -90,7 +93,7 @@
           <div class="timeline">
             <div class="timeline-item">
               <span class="date">2025 — 2026</span>
-              <h3>HBO Elektrotechniek (Voltijd)</h3>
+              <h3>HBO Elektrotechniek (Voltijd) (Gestopt)</h3>
               <span class="location">Hogeschool Inholland Alkmaar</span>
               <p class="description">
                 Diepgaande kennis opgebouwd over PCB-ontwerp, schema-tekenen en elektronische
@@ -106,6 +109,7 @@
                 Webapplicaties gebouwd met PHP, JavaScript, HTML, CSS en MySQL. Gewerkt met Agile
                 methodieken (Trello, Figma, Git).
               </p>
+              <a href="/docs/Mbo Middelbaar beroepsonderwijs.pdf" target="_blank">Diploma ></a>
             </div>
 
             <div class="timeline-item">
@@ -116,6 +120,7 @@
                 Gespecialiseerd in Produceren, Installeren & Energie. Ervaring opgedaan met
                 SolidWorks (3D printen), CNC-draaibanken en robot-programmering.
               </p>
+              <a href="/docs/Storm diploma cum laude VMBO.pdf" target="_blank">Diploma ></a>
             </div>
           </div>
         </div>
