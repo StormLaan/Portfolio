@@ -8,7 +8,7 @@
       <div class="content">
         <img src="@/assets/images/photo.png" alt="storm laan" />
         <div class="bio">
-          <h1>Hi, I'm <strong>Storm Laan</strong></h1>
+          <h1>Hoi, ik ben <strong>Storm Laan</strong></h1>
           <p class="role">Software & Hardware Developer | Oprichter Olytech.</p>
           <p>
             Ik ben gepassioneerd door het bouwen van complete oplossingen — van de fysieke hardware
