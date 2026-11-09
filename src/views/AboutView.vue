@@ -23,6 +23,7 @@
             <div class="contact-chips">
               <a href="mailto:vlekkie.storm@gmail.com" class="chip">✉️ stormlaan@icloud.com</a>
               <a href="tel:0651479557" class="chip">📞 06 51479557</a>
+              <a href="/docs/cv-storm.pdf" class="chip" target="_blank">📄 CV</a>
               <span class="chip">📍 Nieuwe Niedorp</span>
               <span class="chip">🚗 Rijbewijs B</span>
             </div>

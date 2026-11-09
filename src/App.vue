@@ -40,10 +40,7 @@ import Nav from '@/components/nav.vue'
             <span class="company-name">Olytech</span>
             <span class="tagline">By Storm Laan</span>
           </div>
-          <p class="brand-desc">
-            Designing repairable, open-source hardware and durable software. Built to last, easy to
-            modify.
-          </p>
+          <p class="brand-desc">Software & Hardware <br> Developer | Oprichter Olytech.</p>
           <p class="copyright">© {{ new Date().getFullYear() }} Olytech / Storm Laan.</p>
         </div>
 
@@ -52,7 +49,7 @@ import Nav from '@/components/nav.vue'
           <h3>Navigation</h3>
           <ul>
             <li><RouterLink to="/">Home</RouterLink></li>
-<!--            <li><RouterLink to="/projects">Projects</RouterLink></li>-->
+            <!--            <li><RouterLink to="/projects">Projects</RouterLink></li>-->
             <li><RouterLink to="/about">About</RouterLink></li>
           </ul>
         </div>
@@ -181,7 +178,6 @@ a,
 button {
   text-decoration: none;
   padding: 10px;
-  color: black;
   font-weight: bold;
   font-size: 16px;
   color: #fff;

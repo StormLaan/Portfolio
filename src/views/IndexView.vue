@@ -55,7 +55,7 @@
         </div>
 
         <div class="project">
-          <img src="@/assets/images/HomeServer.jpg" />
+          <img alt="home server" src="@/assets/images/HomeServer.jpg" />
           <div class="project-content"></div>
           <h1>Home server</h1>
           <div>
@@ -65,6 +65,23 @@
           </div>
           <!--          <button>MORE ></button>-->
         </div>
+      </div>
+      <br />
+      <div class="project">
+        <div class="project-content"></div>
+        <h1>OlyHub</h1>
+        <div>
+          Een soort whatsapp, teams en discord combinatie. Waarmee je direct kan chatten met elkaar
+          en in een groep. Daarnaast kan je een “server” aanmaken met meerdere chatrooms zoals
+          chatten, trello, suggesties en nog andere dingen. Met die server kan je ook je eigen
+          encryptie service koppelen zodat jij controle hebt over de encryptie met als optie ook dat
+          je zelf de data kan opslaan op je eigen hardware. <br /><br />
+          Daarmee is als gevolg dat je controle kan hebben over je eigen server data waar
+          verschillende landen niet data kunnen eisen van mensen uit een ander land. Maar de direct
+          messaging gaat nog steeds door een bedrijf met zijn infrastructuur, dus alleen servers
+          kunnen privé zijn.
+        </div>
+        <!--          <button>MORE ></button>-->
       </div>
     </div>
   </section>
