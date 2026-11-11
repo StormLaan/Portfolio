@@ -42,7 +42,7 @@
           <div class="project-content"></div>
           <h1>Olybase</h1>
           <div>
-            Olybase is een pakket gebouwd op rust met axum met meerdere optionele pakketten om een
+            Olybase is een pakket gebouwd op Rust met Axum met meerdere optionele pakketten om een
             api of front end net wat sneller te kunnen maken. Daarin zitten optionele pakketten:
             <ul>
               <li>Axum met standaard responses, cors, tls, tracing en websocket support</li>
