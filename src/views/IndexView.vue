@@ -88,10 +88,10 @@
         <div class="project-content"></div>
         <h1>Decentralized user accounts (idee)</h1>
         <div>
-          mdat e-mail gekoppeld is aan bedrijven/domeinen zoals @gmail.com, @icloud.com en andere
+          Doordat e-mail gekoppeld is aan bedrijven/domeinen zoals @gmail.com, @icloud.com en andere
           providers kan het moeilijk zijn om weg te gaan bij die providers want je identiteit is er
           aan gekoppeld door apps en andere services die berichten naar je moet sturen. <br><br> Daarom is
-          het belangrijk om een soort standaard te maken die werkt als een soort dns- of ip -systeem
+          het belangrijk om een soort standaard te maken die werkt als een soort dns- of ip- systeem
           dat kan zeggen dat die persoon die provider gebruikt zodat de gebruiker de data kan
           redirecten naar een andere provider zodat je accounts niet waardeloos raken als een
           provider opeens weg is.
